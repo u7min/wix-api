@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 📚 Overview
+## 📚 Overview 
 
 This project retrieves blog post lists using the **Wix API**, scrapes each post into **Markdown**, stores them in **MongoDB**, and serves them through a **FastAPI REST API**.
 
