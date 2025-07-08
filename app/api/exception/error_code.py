@@ -1,0 +1,9 @@
+from enum import Enum
+
+
+class ErrorCode(str, Enum):
+    BAD_REQUEST = "BAD_REQUEST"
+    DATA_NOT_FOUND = "DATA_NOT_FOUND"
+    TIME_OUT = "TIME_OUT"
+    TOO_MANY_REQUESTS = "TOO_MANY_REQUESTS"
+    INTERNAL_SERVER_ERROR = "INTERNAL_SERVER_ERROR"
