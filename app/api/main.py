@@ -13,7 +13,7 @@ _openapi = FastAPI.openapi
 
 app = FastAPI(
     title="Booding API",
-    version="0.0.2",
+    version="0.0.3",
     description="부딩 API for 데이터베이스 조회",
 )
 
